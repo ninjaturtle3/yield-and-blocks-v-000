@@ -22,7 +22,7 @@ end
 ##accompanying that method call with a blcok that accepts a |name| parameter
 
 hello_t(["Tim", "Tom", "Jim"])
-#do |name|
+#    do |name|
 #   if name.start_with?("T")
 #     puts "Hi, #{name}"
 #   end
