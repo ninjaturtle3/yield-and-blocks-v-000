@@ -21,7 +21,8 @@ end
 ##here we call our method with the array of names as an argument;
 ##accompanying that method call with a blcok that accepts a |name| parameter
 
-hello_t(["Tim", "Tom", "Jim"]) do |name|
+hello_t(["Tim", "Tom", "Jim"])
+#do |name|
 #   if name.start_with?("T")
 #     puts "Hi, #{name}"
 #   end
